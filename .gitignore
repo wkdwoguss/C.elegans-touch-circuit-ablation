@@ -1,0 +1,32 @@
+# Python virtual environment — reinstall with: python3.10 -m venv venv310 && pip install -r requirements.txt
+venv310/
+
+# Simulation raw outputs — regenerate by re-running the sibernetic_patch/*.py scripts
+day2_c2_check/*/*.dat
+day2_c2_check/*/*.net.nml
+day2_c2_check/*/LEMS_*.xml
+day2_c2_check/*/*.mp4
+day2_c2_check/*/cell_C.xml
+day2_c2_check/*/custom_*.xml
+
+# Sibernetic body-simulation outputs (videos, raw motion/muscle logs, auto-generated figures)
+v2_sibernetic/*/*.mp4
+v2_sibernetic/*/worm_motion_log.txt
+v2_sibernetic/*/muscles_activity_buffer.txt
+v2_sibernetic/*/figures/
+v2_sibernetic/worm_motion_log_*.txt
+v2_sibernetic/muscles_activity_buffer_*.txt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Result figures — presented on the blog instead, not in the repo
+plots/*.png
+
+# OS/editor cruft
+.DS_Store
+.vscode/
+
+# Claude Code local settings (personal, not project content)
+.claude/
